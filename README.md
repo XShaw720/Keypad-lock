@@ -1,2 +1,3 @@
 # Keypad-lock
-10 digit keypad lock with an unlock and lock button that allows you to change passcode when needed.
+10 digit keypad lock with an unlock and lock button that holds up to an 8 digit passcode that can be changed when needed.
+When the code is first uploaded the keypad will be unlocked, to set a passcode press the unlock button, enter your desired passcode and press lock. the keypad has two modes, locked and unlocked. When it is unlocked you can press unlock to change the passcode as described above or lock to lock it. When locked ut's only function is unlock, to do so enter your passcode followed by unlock. A green led with flass once everytime you hit a button, a green led will flash 3 times when it is first unlocked, a red led will flash once when ever you enter to many number and the queue is wiped, and a red led will flash 3 times when it is forst locked.
