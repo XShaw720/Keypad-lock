@@ -126,8 +126,10 @@ void loop() {
   
   while(1){ //unlocked loop
     butPressed=button();
-    if(butPressed==unlock)  //when unlocked the unlock button sets the passcode
+    if(butPressed==unlock){  //when unlocked the unlock button sets the passcode
+      wipe(passcode);
       fillArray(passcode, lock, -1); //get new passcode
+    }
     
     if(butPressed==lock){
       //action to lock
